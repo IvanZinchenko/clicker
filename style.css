@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Kodchasan&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Kodchasan', sans-serif;
+	color: #fff;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+::selection {
+	background: transparent;
+}
+::-moz-selection {
+	background: transparent;
+}
+
+body {
+	overflow: hidden;
+}
+
+.wrapper {
+	height: 100vh;
+	display: flex;
+	background-image: linear-gradient(to bottom, #ff7675, #d63031);
+	align-items: center;
+	justify-content: center;
+}
+
+.clickerForm {
+	min-width: 490px;
+}
+
+#clikerItem {
+	text-align: center;
+	font-size: 110px;
+	margin-bottom: 70px;
+	text-transform: uppercase;
+}
+
+.btn {
+	clip-path: circle(50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.btn-inner:hover {
+	transform: scale(1.1);
+}
+
+.btn-inner {
+	width: 200px;
+	height: 200px;
+	font-size: 50px;
+	text-align: center;
+	background-image: linear-gradient(to bottom, #81ecec, #00cec9);
+	cursor: pointer;
+	text-transform: uppercase;
+	clip-path: circle(50%);
+	border: none;
+
+	transition: transform .2s ease;
+}
+
+.booster {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.booster-item {
+	background-image: linear-gradient(to bottom, #81ecec, #00cec9);
+	font-size: 25px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	cursor: pointer;
+	width: 80px;
+
+	transition: transform .2s ease;
+}
+
+.booster-item:hover {
+	transform: scale(1.1);
+}
+
+.booster-counter {
+	margin-top: 10px;
+	font-size: 20px;
+}
